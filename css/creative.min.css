@@ -90,6 +90,8 @@ aside {
     -moz-transition: all .35s
 }
 
+
+
 .navbar-default .navbar-header .navbar-brand {
     color: #df1e26;
     font-weight: 700;
@@ -109,8 +111,8 @@ aside {
 
 .navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
-    font-weight: 700;
     font-size: 13px;
+    font-weight: 700;
     color: #222
 }
 
@@ -400,4 +402,11 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0
+}
+
+.nav > li {
+  display: inline-block;
+}
+.navbar-nav {
+  margin: 5px 0 0 0;
 }
