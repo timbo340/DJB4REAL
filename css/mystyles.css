@@ -6,6 +6,9 @@
   min-height: 600px;
   margin-top: 80px;
 }
+.container-fluid .navbar-header img {
+  margin: -10px;
+}
 
 @media only screen and (max-width: 1351px) {
 body {
